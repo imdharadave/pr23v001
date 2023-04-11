@@ -12,40 +12,43 @@
   }
 
   h1 {
-    @apply mb-6 font-sans text-7xl font-semibold text-primary sm:text-8xl md:text-8xl lg:text-9xl;
+    @apply mb-6 font-serif text-5xl font-semibold text-primary sm:text-7xl md:text-8xl lg:text-9xl;
   }
 
   h2 {
-    @apply mb-4 font-serif text-3xl font-semibold text-primary sm:text-3xl md:text-5xl lg:text-6xl;
+    @apply mb-4 font-serif text-3xl font-semibold text-primary md:text-6xl;
   }
 
   h3 {
-    @apply text-xl font-bold text-primary sm:text-xxl md:text-2xl;
+    @apply mb-4 text-xl font-bold text-primary sm:text-xxl md:text-2xl;
   }
 
   h4 {
-    @apply text-lg font-bold text-primary sm:text-xxl;
+    @apply mb-4 text-lg font-bold text-primary sm:text-xl;
   }
 
-  /* h5 {
-    @apply text-base font-semibold text-primary sm:text-lg;
+  h5 {
+    @apply mb-2 text-base font-semibold text-primary sm:text-lg;
   }
 
   h6 {
-    @apply text-xs font-semibold text-primary sm:text-base;
-  } */
-
-  p {
-    @apply mb-5 text-lg text-secondary1;
+    @apply mb-2 text-xs font-semibold text-primary sm:text-base;
   }
 
-  /* p.small {
-    @apply text-sm  text-secondary1;
+  p {
+    @apply mb-5 text-primary;
+    &:last-child {
+      @apply mb-0 pb-0;
+    }
+  }
+
+  p.small {
+    @apply text-sm;
   }
 
   p.large {
-    @apply text-2xl  text-secondary1;
-  } */
+    @apply text-2xl;
+  }
 
   a {
     @apply text-neutral-100 no-underline;

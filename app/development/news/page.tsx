@@ -29,7 +29,6 @@ const Page = () => {
     <>
       <NavBar />
       <OurNews />
-
       <Blogcard />
       <Scrollbutton />
       <Footer />

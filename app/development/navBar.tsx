@@ -34,7 +34,7 @@ const NavBar = (props: Props) => {
     <header>
       <div className="Navigation">
         <Link href="../development">
-          <h2>TSC</h2>
+          <h2>MANAMI</h2>
         </Link>
         <input type="checkbox" id="clicked" className="clicked" name="rGroup" />
         <label htmlFor="clicked" className="humbur">

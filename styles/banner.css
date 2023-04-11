@@ -1,5 +1,5 @@
 .banner {
-  @apply grid min-h-fit content-center items-center py-20;
+  @apply grid min-h-fit content-center items-center pt-20 lg:pt-36 pb-20;
   @media only screen and (min-width: 1010px) {
     grid-template-columns: 2fr 1fr;
   }
@@ -11,11 +11,9 @@
     @apply text-left;
   }
   &__content {
-    @apply flex flex-col md:gap-4 lg:gap-6;
+    @apply  md:gap-4 lg:gap-6;
   }
-  &__desc {
-    @apply flex flex-col lg:gap-20;
-  }
+ 
   &__button {
     @apply relative flex  items-center;
   }

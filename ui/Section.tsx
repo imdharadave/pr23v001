@@ -12,7 +12,7 @@ const Section = (props: Props) => {
   return (
     <div className="effort">
       <div className="effort__image md:order-1">
-        <ImageTransition />
+        {/* <ImageTransition /> */}
         <Image
           src="https://assets.website-files.com/6315d6de2357050021f26e96/63172900c798f906c10618bf_photo-1-p-500.jpg"
           alt="Hardwork"

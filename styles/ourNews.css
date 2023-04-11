@@ -1,5 +1,5 @@
 .ourNews {
-  @apply min-h-screen content-center justify-items-center gap-8 py-36;
+  @apply  content-center justify-items-center gap-8 py-36;
 
   &__title {
     @apply grid gap-5 md:items-center justify-between;

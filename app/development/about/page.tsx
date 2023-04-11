@@ -17,7 +17,7 @@ const Page = () => {
       <Video />
       <Developercard />
       <Work />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Scrollbutton />
       <Footer />
     </>
