@@ -32,7 +32,7 @@ const navdata = [
 const NavBar = (props: Props) => {
   return (
     <header>
-      <div className="Navigation">
+      <div className="Navigation  ">
         <Link href="../development">
           <h2>MANAMI</h2>
         </Link>

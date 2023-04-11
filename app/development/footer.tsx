@@ -32,10 +32,10 @@ const Footer = (props: Props) => {
       <div className="footer__line"></div>
       <div className="footer__p2">
         <div>
-          <h3 className="mb-3">TSC</h3>
+          <h3 className="mb-3">MANAMI</h3>
           <p>
-            TSC is an award UI/UX designs and branding agency based in New York,
-            USA.
+            MANAMI is an award UI/UX designs and branding agency based in Gujrat,
+        India.
           </p>
           <div className="footer__links">
             {links.map((val) => (
@@ -52,7 +52,7 @@ const Footer = (props: Props) => {
         </div>
       </div>
       <p className="footer__copyright">
-        Copyright © TSC | Designed by TSC - Powered by TSC
+        Copyright © MANAMI | Designed by MANAMI - Powered by MANAMI
       </p>
     </section>
   );

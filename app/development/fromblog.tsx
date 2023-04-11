@@ -34,7 +34,7 @@ const Fromblog = ({ url, btn, date, title, link }: Props) => {
       <div className="fromblog__content">
         <h2>From Blog</h2>
         <div>
-          <Link href="#">View All Post</Link>
+          <Link href="#" >View All Post</Link>
         </div>
       </div>
       <div className="fromblog__body  ">

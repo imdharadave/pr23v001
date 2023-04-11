@@ -25,9 +25,7 @@ function Aboutkofo({}: Props) {
           excellence since forever.
         </p>
         <p>
-          We set the standard of exceptional design creatively, technically,
-          sustainably, and ethically so that you can make the extraordinary
-          impact impact that you seek.
+        At Manami Solutions, we are committed to delivering the best possible solutions and exceptional customer service. Contact us today to learn more about how our automation software can help you take your business to the next level.
         </p>
 
         <div className="aboutkofo__button">

@@ -1,9 +1,9 @@
 header {
   .Navigation {
     position: fixed;
-    height: 15vh;
+    height: 10vh;
     width: 100%;
-    @apply top-0 z-10 m-0 flex  flex-row items-center justify-between  bg-neutral-400 px-container;
+    @apply top-0 z-10 m-0 flex  flex-row items-center justify-between  bg-secondary2 px-container;
 
     h2 {
       margin: 0;

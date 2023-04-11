@@ -21,11 +21,9 @@ const Section = (props: Props) => {
       </div>
       <div className="effort__info relative">
         <p className="pb-8 text-xxl">
-          We bring together innovative designers, pixel perfect developers and
-          data driven strategy to create a boutique experience at enterprise
-          scale.
+        Our services include custom software development, process automation, workflow integration, and system integration. Whether you need a standalone software solution or want to integrate multiple systems, we have the expertise and experience to deliver a solution that meets your requirements.
         </p>
-        <div className="relative">
+        {/* <div className="relative">
           <Link href="https://www.youtube.com/watch?v=wkhRnmLxKH4" className="">
             <Image
               src="https://assets.website-files.com/6315d6de2357050021f26e96/63172afabaf3d9640b2e3b00_play-p-500.png"
@@ -37,7 +35,7 @@ const Section = (props: Props) => {
             <PlaySvg className=" effort__svg absolute" />
             <TwolineSvg className="effort__twoline " />
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ type Props = {};
 
 const Banner = (props: Props) => {
   return (
-    <section id="banner" className="banner">
+    <section id="banner" className="banner ">
       <div className="banner__body">
         <h1 className="banner__title">
           Applying Data Science & Techniques
@@ -16,8 +16,7 @@ const Banner = (props: Props) => {
           </span>
         </h1>
         <p>
-            We are an award-winning branding and web agency committed to
-            excellence since forever.
+        Welcome to Manami Solutions, where we specialize in providing customized software solutions to help businesses of all sizes automate their processes and boost productivity
           </p>
           <div className="banner__button">
            <button className="btn btn--primary">View on Designer</button>
