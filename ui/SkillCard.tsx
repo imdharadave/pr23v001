@@ -7,7 +7,7 @@ type Props = {};
 const SkillCard = ({ data }) => {
   return (
     <section className="p-0">
-      <div className="grid gap-12 justify-between overflow-hidden min-h-[250px] max-w-[360px] p-8 pb-14 bg-secondary3">
+      <div className="grid gap-12 justify-between overflow-hidden min-h-[250px] max-w-[550px] p-8 pb-14 bg-secondary3">
         <figure className="relative m-0 aspect-h-image w-11 p-0">
           {data.svg}
         </figure>

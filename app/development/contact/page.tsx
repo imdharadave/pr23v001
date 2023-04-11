@@ -16,7 +16,7 @@ const Page = () => {
       <OurOffice />
       <ContactForm />
 
-      <Faq />
+      {/* <Faq /> */}
       <Footer />
     </>
   );

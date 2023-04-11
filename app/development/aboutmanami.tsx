@@ -1,4 +1,4 @@
-import '@/styles/aboutkofo.css';
+import '@/styles/aboutmanami.css';
 import React from 'react';
 import Image from 'next/image';
 import RoketSvg from '@/public/icons/roket.svg';
@@ -7,10 +7,10 @@ import ImageTransition from '@/ui/ImageTransition';
 
 type Props = {};
 
-function Aboutkofo({}: Props) {
+function Aboutmanami({}: Props) {
   return (
-    <section className="aboutkofo">
-      <div className="aboutkofo__image">
+    <section className="aboutmanami">
+      <div className="aboutmanami__image">
         {/* <ImageTransition /> */}
         <Image
           src="https://assets.website-files.com/6315d6de2357050021f26e96/63187ca7418405f870aba348_photo-4.jpg"
@@ -18,8 +18,8 @@ function Aboutkofo({}: Props) {
           fill
         />
       </div>
-      <div className="aboutkofo__content">
-        <h2 className="aboutkofo__h2">About Kofo</h2>
+      <div className="aboutmanami__content">
+        <h2 className="aboutmanami__h2">About Manami</h2>
         <p>
           We are an award-winning branding and web agency committed to
           excellence since forever.
@@ -28,15 +28,15 @@ function Aboutkofo({}: Props) {
         At Manami Solutions, we are committed to delivering the best possible solutions and exceptional customer service. Contact us today to learn more about how our automation software can help you take your business to the next level.
         </p>
 
-        <div className="aboutkofo__button">
+        <div className="aboutmanami__button">
           <Link href="/" className="btn btn--primary">
             View On Designer
           </Link>
-          <RoketSvg className="aboutkofo__svg" />
+          <RoketSvg className="aboutmanami__svg" />
         </div>
       </div>
     </section>
   );
 }
 
-export default Aboutkofo;
+export default Aboutmanami;

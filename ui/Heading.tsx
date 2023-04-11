@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import '@/styles/titlePage.css';
+import '@/styles/heading.css';
 
 type Props = {
   className: any;
@@ -8,17 +8,17 @@ type Props = {
   desc: string;
 };
 
-const TitlePage = ({ className, title, desc }: Props) => {
+const Heading = ({ className, title, desc }: Props) => {
   return (
     <div
       className={clsx('title__body', {
         [className]: !!className,
       })}
     >
-      <h2 className="text-neutral-700">{title}</h2>
+      <h2 className="text-neutral-300">{title}</h2>
       <span className="title__h4">{desc}</span>
     </div>
   );
 };
 
-export default TitlePage;
+export default Heading;

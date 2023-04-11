@@ -1,7 +1,0 @@
-.icon {
-  @apply flex  justify-center;
-
-  &__icon:hover {
-    @apply bg-neutral-300 cursor-pointer rounded;
-  }
-}

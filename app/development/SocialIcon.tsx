@@ -27,11 +27,11 @@ const socialicon = [
     link: 'https://www.twitter.com',
     className: 'hover:bg-[#1da1f2]',
   },
-  {
-    icon: 'dribbble',
-    link: 'https://www.dribbble',
-    className: 'hover:bg-[#ea4c89]',
-  },
+  // {
+  //   icon: 'dribbble',
+  //   link: 'https://www.dribbble',
+  //   className: 'hover:bg-[#ea4c89]',
+  // },
 ];
 
 const SocialIcon = (props: Props) => {

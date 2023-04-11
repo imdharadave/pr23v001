@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import '@/styles/video.css';
+import '@/styles/workwithus.css';
 import Link from 'next/link';
 import React from 'react';
 import PlaySvg from '@/public/icons/play.svg';
@@ -20,7 +20,7 @@ const Section = (props: Props) => {
         />
       </div>
       <div className="effort__info relative">
-        <p className="pb-8 text-xxl">
+        <p className="pb-8 text-2xl text-neutral-200">
         Our services include custom software development, process automation, workflow integration, and system integration. Whether you need a standalone software solution or want to integrate multiple systems, we have the expertise and experience to deliver a solution that meets your requirements.
         </p>
         {/* <div className="relative">

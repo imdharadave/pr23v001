@@ -34,8 +34,7 @@ const Footer = (props: Props) => {
         <div>
           <h3 className="mb-3">MANAMI</h3>
           <p>
-            MANAMI is an award UI/UX designs and branding agency based in Gujrat,
-        India.
+          1st floor, Keepsake Welding Research & Skill Development Centre, L.D. College of Engineering Campus, University Road, Ahmedabad 380015, Gujarat INDIA.
           </p>
           <div className="footer__links">
             {links.map((val) => (
@@ -47,8 +46,8 @@ const Footer = (props: Props) => {
           <div className="footer__socialicons">
             <SocialIcon />
           </div>
-          <Link href="#">hello@TSC.com</Link>
-          <Link href="#">+91 3285445152</Link>
+          <Link href="#">info@manamisolution.com</Link>
+          <Link href="#">+91-79-26307567</Link>
         </div>
       </div>
       <p className="footer__copyright">

@@ -40,7 +40,7 @@ const FormData = [
 const ContactForm = (props: Props) => {
   return (
     <section>
-      <div className="contact__body">
+      <div className="contact__body pb-10">
         {FormData.map((formData) => {
           return (
             <div key={formData.id} className="form ">

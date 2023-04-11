@@ -1,5 +1,5 @@
-.aboutkofo {
-  @apply grid h-full lg:grid-cols-2 py-20 lg:justify-items-center lg:gap-20 gap-7;
+.aboutmanami {
+  @apply grid h-full lg:grid-cols-2 py-4 lg:justify-items-center lg:gap-20 gap-7 pt-32 md:pt-36;
   &__image {
     @apply relative mx-auto min-h-[300px] md:w-2/5 lg:w-full w-full aspect-image overflow-hidden;
   }
