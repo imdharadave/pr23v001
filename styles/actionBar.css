@@ -1,0 +1,12 @@
+.card {
+  &__actions {
+    @apply flex flex-row  items-center justify-center gap-4;
+  }
+
+  &__demo {
+    @apply grid justify-center p-0 text-center;
+  }
+  &__avatar {
+    @apply aspect-square w-20 overflow-hidden rounded-full;
+  }
+}
