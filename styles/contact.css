@@ -1,5 +1,5 @@
 .contact {
-  @apply pt-44 ;
+  @apply pt-44 min-h-[750px];
 
   &__title {
     @apply grid justify-between lg:gap-5 pb-14 md:items-center;

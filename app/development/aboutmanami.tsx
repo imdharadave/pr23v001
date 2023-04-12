@@ -1,25 +1,26 @@
 import '@/styles/aboutmanami.css';
 import React from 'react';
 import Image from 'next/image';
+import About from '@/public/Images/about.png'
 import RoketSvg from '@/public/icons/roket.svg';
 import Link from 'next/link';
-import ImageTransition from '@/ui/ImageTransition';
+
 
 type Props = {};
 
 function Aboutmanami({}: Props) {
   return (
-    <section className="aboutmanami">
+    <section className="aboutmanami  bg-gradient-to-r from-[#e1e7ee] to-neutral-400">
       <div className="aboutmanami__image">
         {/* <ImageTransition /> */}
         <Image
-          src="https://assets.website-files.com/6315d6de2357050021f26e96/63187ca7418405f870aba348_photo-4.jpg"
+          src={About}
           alt="Hardwork"
           fill
         />
       </div>
       <div className="aboutmanami__content">
-        <h2 className="aboutmanami__h2">About Manami</h2>
+        <h2 className="aboutmanami__h2 text-neutral-300">About Manami</h2>
         <p>
           We are an award-winning branding and web agency committed to
           excellence since forever.
@@ -29,9 +30,9 @@ function Aboutmanami({}: Props) {
         </p>
 
         <div className="aboutmanami__button">
-          <Link href="/" className="btn btn--primary">
+          {/* <Link href="/" className="btn btn--primary text-neutral-600">
             View On Designer
-          </Link>
+          </Link> */}
           <RoketSvg className="aboutmanami__svg" />
         </div>
       </div>

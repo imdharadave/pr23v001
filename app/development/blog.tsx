@@ -1,7 +1,5 @@
 import React from 'react';
-import Card from './card';
-import Title from './title';
-import '@/styles/ourNews.css';
+import '@/styles/blog.css';
 import '@/styles/card.css';
 import '@/styles/title.css';
 import Link from 'next/link';
@@ -15,12 +13,11 @@ type Props = {
 
 const data = {
   btn: 'Work with Us',
-  title: 'Our',
-  title1: 'News',
+  title: 'Blog',
   description: 'We share our thoughts on design. We design awesome things. ',
 };
 
-const NewsData = [
+const BlogData = [
   {
     url: 'https://assets.website-files.com/607de2d8e8911ebf197a3f0f/607f2e01cbd8323965e6629a_image-6-courses-education-x-template.jpg',
     btn: 'News',
@@ -44,14 +41,12 @@ const NewsData = [
   },
 ];
 
-const OurNews = ({ btn, description, title }: Props) => {
+const Blog = ({ btn, description, title }: Props) => {
   return (
-    <section id="ourNews" className="ourNews">
-      <div className="ourNews__title">
-        <h1>
+    <section id="blog" className="blog">
+      <div className="blog__title ">
+        <h1 className='text-neutral-300'>
           {data.title}
-          <br />
-          <span className="font-normal text-secondary1">{data.title1}</span>
         </h1>
         <div>
           <p>{data.description}</p>
@@ -59,13 +54,13 @@ const OurNews = ({ btn, description, title }: Props) => {
             <Link href="/" className="btn btn--primary border-b">
               {data.btn}
             </Link>
-            <RoketSvg className="ourNews__title__svg" />
+            <RoketSvg className="blog__title__svg" />
           </div>
         </div>
       </div>
-      <div className="ourNews__content"></div>
+      <div className="blog__content"></div>
     </section>
   );
 };
 
-export default OurNews;
+export default Blog;

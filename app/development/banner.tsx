@@ -1,5 +1,7 @@
 import React from 'react';
 import '@/styles/banner.css';
+import Image from 'next/image';
+import Manami from '@/public/Images/manami.png';
 import RoketSvg from '@/public/icons/roket.svg';
 
 type Props = {};
@@ -22,8 +24,12 @@ const Banner = (props: Props) => {
         </div>
        
       </div>
-      <div className="banner__content">
-          <img src='https://manamisolutions.com/wp-content/uploads/2020/07/5.png'></img>
+      <div className="banner__content__image">
+          <Image
+           src={Manami}
+          alt="Hardwork"
+          fill
+          />
       </div>
     </section>
   );

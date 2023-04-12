@@ -3,7 +3,7 @@
 }
 
 .title__body {
-  @apply mx-auto md:max-w-[500px] lg:max-w-[900px] text-center mb-12;
+  @apply text-start md:text-center mb-12;
 }
 .title__h4 {
         

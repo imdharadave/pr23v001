@@ -8,16 +8,19 @@
     @apply m-0;
   }
   &__title {
-    @apply text-left;
+    @apply text-left md:text-center lg:text-left;
   }
   &__content {
     @apply  md:gap-4 lg:gap-6;
+    &__image {
+      @apply relative w-full min-h-[300px] aspect-image overflow-hidden rounded;
+    }
   }
  
   &__button {
     @apply relative flex  items-center;
   }
-  &__svg {
+  /* &__svg {
     @apply absolute right-0 hidden w-28 md:block;
     animation: mymove 3s 1;
     @keyframes mymove {
@@ -28,5 +31,5 @@
         transform: translateX(0px);
       }
     }
-  }
+  } */
 }

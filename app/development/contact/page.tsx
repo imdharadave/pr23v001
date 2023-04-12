@@ -13,7 +13,7 @@ const Page = () => {
       <NavBar />
       <Scrollbutton />
       <Contact />
-      <OurOffice />
+      {/* <OurOffice /> */}
       <ContactForm />
 
       {/* <Faq /> */}

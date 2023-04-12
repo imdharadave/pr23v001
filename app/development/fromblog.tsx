@@ -30,9 +30,9 @@ const CardData = [
 
 const Fromblog = ({ url, btn, date, title, link }: Props) => {
   return (
-    <section id="fromblog" className="fromblog">
-      <div className="fromblog__content">
-        <h2>From Blog</h2>
+    <section id="fromblog" className="fromblog text-neutral-300">
+      <div className="fromblog__content ">
+        <h2 >From Blog</h2>
         <div>
           <Link href="#" >View All Post</Link>
         </div>

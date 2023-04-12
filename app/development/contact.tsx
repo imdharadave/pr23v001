@@ -4,6 +4,7 @@ import Title from './title';
 import RoketSvg from '@/public/icons/roket.svg';
 import ContactForm from './contact/contactForm';
 import Link from 'next/link';
+import OurOffice from './ourOffice';
 type Props = {
   btn: any;
   title: String;
@@ -11,14 +12,14 @@ type Props = {
 };
 
 const data = {
-  btn: 'View all Work',
+  btn: 'contact us',
   title: 'Contact',
   description: "We'd love to hear from you.",
 };
 
 const Contact = ({ btn, description, title }: Props) => {
   return (
-    <section id="contact" className="contact">
+    <section id="contact" className="contact  bg-gradient-to-r from-[#e1e7ee] to-neutral-400">
       <div className="contact__title ">
         <h1>{data.title}</h1>
         <div>
@@ -31,7 +32,7 @@ const Contact = ({ btn, description, title }: Props) => {
           </div>
         </div>
       </div>
-      {/* <ContactForm /> */}
+      <OurOffice />
     </section>
   );
 };

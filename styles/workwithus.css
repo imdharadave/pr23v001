@@ -1,5 +1,5 @@
-.effort {
-  @apply grid gap-7 lg:pb-10 justify-items-stretch  md:grid-cols-2 md:gap-10;
+.workwithus {
+  @apply grid gap-7 lg:pb-10 justify-items-stretch  lg:grid-cols-2 md:gap-10;
 
   /* @apply grid px-container md:grid-cols-2 md:gap-10 lg:items-center; */
   &__image {

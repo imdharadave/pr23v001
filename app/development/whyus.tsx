@@ -35,10 +35,10 @@ const WhyusData = [
 
 const WhyUs = () => {
   return (
-    <section className="whyus ">
+    <section className="whyus">
       <div id="whyus" >
-<h2 className='text-center'>Why to choose us?</h2>
-<h3>At Manami Solutions, we are dedicated to helping businesses achieve their goals through customized software solutions that improve efficiency and productivity. </h3>
+<h2 className=' text-start text-7xl md:text-center text-neutral-300'>Why to choose us?</h2>
+<h3 className='text-3xl'>At Manami Solutions, we are dedicated to helping businesses achieve their goals through customized software solutions that improve efficiency and productivity. </h3>
       </div>
       <div className="whyus__item pt-7">
         {WhyusData.map((data) => {

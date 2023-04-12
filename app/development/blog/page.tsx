@@ -1,12 +1,6 @@
-import Faq from './faq';
-import TitlePage from '@/ui/Heading';
-import Testimonial from '../testimonial';
+
 import React from 'react';
-import Aboutkofo from '../aboutmanami';
-import Banner from './Banner';
-import Contact from './contact';
-import Fromblog from '../fromblog';
-import OurNews from '../ourNews';
+import Blog from '../blog';
 import NavBar from '../navBar';
 import Footer from '../footer';
 import Scrollbutton from '../scrollbutton';
@@ -16,7 +10,7 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <OurNews />
+     <Blog />
       <Blogcard />
       <Scrollbutton />
       <Footer />

@@ -21,14 +21,14 @@ const projectdata = [
     date: 'February 25,2021',
     cont: 'Read More',
   },
-  // {
-  //   id: 3,
-  //   img: 'https://assets.website-files.com/6315d6de235705e568f26e9b/63176314bf708f01020ea732_blog-2.jpg',
-  //   button: 'Code',
-  //   description: 'Communication between studio departments',
-  //   date: 'March 9,2021',
-  //   cont: 'Read More',
-  // },
+  {
+    id: 3,
+    img: 'https://assets.website-files.com/6315d6de235705e568f26e9b/63176314bf708f01020ea732_blog-2.jpg',
+    button: 'Code',
+    description: 'Communication between studio departments',
+    date: 'March 9,2021',
+    cont: 'Read More',
+  },
 ];
 
 function Blogcard({}: Props) {

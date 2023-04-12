@@ -7,7 +7,7 @@ type Props = {};
 
 const OurOffice = (props: Props) => {
   return (
-    <section id="ourOffice" className="ourOffice">
+    <div id="ourOffice" className="ourOffice">
       <div className="text-center md:mx-24 md:mb-6 lg:mx-40 ">
         <h2 className="ourOffice__title">Our Offices</h2>
         <p>
@@ -41,7 +41,7 @@ const OurOffice = (props: Props) => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

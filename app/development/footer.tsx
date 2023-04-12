@@ -10,9 +10,9 @@ type Props = {};
 const links = [
   { page: 'Home' },
   { page: 'About' },
-  { page: 'Style Guide' },
-  { page: 'Lisensing' },
-  { page: 'Instuction' },
+  { page: 'Project' },
+  { page: 'Blog' },
+  { page: 'Contact' },
 ];
 const Footer = (props: Props) => {
   return (
@@ -27,7 +27,7 @@ const Footer = (props: Props) => {
         </Link>
         <h2 className="pt-7 text-4xl md:text-7xl">Ready to talk</h2>
         <p className="">Feel free to Contact us</p>
-        <div>Veiw on Designer</div>
+       
       </div>
       <div className="footer__line"></div>
       <div className="footer__p2">

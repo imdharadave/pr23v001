@@ -39,9 +39,9 @@ const WorkData = [
 const Work = (props: Props) => {
   return (
     <section id="work" className="work ">
-      <h3 className="work__title">
-      We provide you with a range of services designed to help businesses of all sizes automate their processes and boost productivity. Some of the services we offer include:
-      </h3>
+      <h2 className="work__title ">
+      We provide you with a range of services designed to help businesses of all sizes automate their processes and boost productivity. Some of the services we offer include
+      </h2>
       <div className="work__item">
         {WorkData.map((work) => {
           return (
