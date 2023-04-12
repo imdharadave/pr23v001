@@ -8,7 +8,6 @@ const TestimonialBullets = (props: Props) => {
       <div className=" absolute -top-8 flex w-full items-center justify-center gap-3 ">
         <div className="h-3 w-3 rounded-full bg-secondary1"></div>
         <div className="h-3 w-3 rounded-full bg-secondary1"></div>
-        <div className="h-3 w-3 rounded-full bg-secondary1"></div>
       </div>
     </div>
   );

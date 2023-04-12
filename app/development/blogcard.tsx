@@ -35,9 +35,9 @@ function Blogcard({}: Props) {
   return (
     <section className="py-10">
       <div className="header">
-        <h2>From Blog</h2>
+        <h2 className='text-neutral-300 text-4xl md:text-6xl'>From Blog</h2>
         <div>
-          <Link href="#" className="btn btn--white border-0 pl-1">
+          <Link href="#" className="btn btn--white  text-primary pl-1">
             View All Post
           </Link>
         </div>

@@ -23,7 +23,7 @@ const OurOffice = (props: Props) => {
               <h4 className="ourOffice__card__title">Ahmedabad</h4>
               <address className="ourOffice__card__address grid-rows-span-3 text-neutral-600 grid">
                 <a className="w-auto pb-2" href={`#`}>
-                  manami@solutions.com
+                  info@manamisolutions.com
                 </a>
                 <a className="w-auto pb-2" href={`#`}>
                   +91 1800180018

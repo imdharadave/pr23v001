@@ -1,5 +1,5 @@
 .testimonial {
-  @apply grid content-center justify-items-center pb-16 md:pb-32;
+  @apply grid content-center justify-items-center pb-16 md:pb-20;
 }
 /* .card-container {
   @apply grid  gap-4 md:gap-8;
@@ -16,5 +16,5 @@
 }
 
 .testimonial__demo {
-  @apply grid justify-center p-0 text-center;
+  @apply grid justify-center p-0 mb-0 text-left;
 }

@@ -15,11 +15,11 @@ const navbardata = [
     title: 'About',
     link: '../development/about',
   },
-  {
-    id: 3,
-    title: 'Project',
-    link: '../development/service',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Project',
+  //   link: '../development/service',
+  // },
   {
     id: 4,
     title: 'Blog',

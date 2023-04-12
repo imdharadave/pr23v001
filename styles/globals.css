@@ -16,7 +16,7 @@
   }
 
   h2 {
-    @apply mb-4 font-serif text-3xl font-semibold text-primary md:text-6xl;
+    @apply mb-4 font-serif text-3xl font-semibold  md:text-6xl;
   }
 
   h3 {

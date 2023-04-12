@@ -1,5 +1,5 @@
 .fromblog {
-      @apply min-h-fit content-center  bg-gradient-to-r from-[#e1e7ee] to-neutral-400  items-center py-20;
+      @apply min-h-fit content-center   items-center py-20;
 
   &__content {
     @apply flex flex-col px-10 lg:flex-row justify-between items-center mb-10;

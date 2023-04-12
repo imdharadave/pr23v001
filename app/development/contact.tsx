@@ -25,9 +25,9 @@ const Contact = ({ btn, description, title }: Props) => {
         <div>
           <p className="text-left">{data.description}</p>
           <div className="relative flex">
-            <Link href="/" className="btn btn--primary">
+            {/* <Link href="/" className="btn btn--primary">
               {data.btn}
-            </Link>
+            </Link> */}
             <RoketSvg className="contact__tag" />
           </div>
         </div>
