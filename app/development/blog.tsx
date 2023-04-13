@@ -17,29 +17,7 @@ const data = {
   description: 'We share our thoughts on design. We design awesome things. ',
 };
 
-const BlogData = [
-  {
-    url: 'https://assets.website-files.com/607de2d8e8911ebf197a3f0f/607f2e01cbd8323965e6629a_image-6-courses-education-x-template.jpg',
-    btn: 'News',
-    date: 'September 1, 2022',
-    title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
-    href: '#',
-  },
-  {
-    url: 'https://assets.website-files.com/607de2d8e8911ebf197a3f0f/607f2e01cbd8323965e6629a_image-6-courses-education-x-template.jpg',
-    btn: 'Design',
-    date: 'February 25, 2022',
-    title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
-    href: '#',
-  },
-  {
-    url: 'https://assets.website-files.com/607de2d8e8911ebf197a3f0f/607f2e01cbd8323965e6629a_image-6-courses-education-x-template.jpg',
-    btn: 'Design',
-    date: 'February 25, 2022',
-    title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
-    href: '#',
-  },
-];
+
 
 const Blog = ({ btn, description, title }: Props) => {
   return (

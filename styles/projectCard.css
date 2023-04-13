@@ -1,0 +1,18 @@
+.projectcard {
+    &__title{
+        @apply text-left md:text-center pt-20 text-neutral-300;
+    }
+    &__content {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5;
+      }
+    &__image {
+      @apply relative min-h-[200px] md:aspect-video w-full overflow-hidden;
+    }
+    &__body {
+      @apply grid gap-4 py-8 px-4;
+    }
+    
+  }
+  .h3{
+    @apply text-[28px] ;
+  }

@@ -3,7 +3,8 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-
+import ManamiLogo from '@/public/Images/Manami_logo.jpg';
+import Image from "next/image";
 const navbardata = [
   {
     id: 1,
@@ -15,11 +16,11 @@ const navbardata = [
     title: 'About',
     link: '../development/about',
   },
-  // {
-  //   id: 3,
-  //   title: 'Project',
-  //   link: '../development/service',
-  // },
+  {
+    id: 3,
+    title: 'Project',
+    link: '../development/project',
+  },
   {
     id: 4,
     title: 'Blog',
@@ -61,10 +62,14 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[10]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16 bg-neutral-100">
-        <h2 className=" text-5xl">
-          Manam<span className="text-[#f6034c]">i</span>
-        </h2>
+      <div className="flex justify-between items-center  h-full px-10 2xl:px-16 bg-neutral-100">
+      <div className="!w-36">
+        <Image  src={ManamiLogo}
+      alt= "manami_logo"
+      />
+      </div>
+      
+      
         <div className="">
        
           <ul className="hidden md:flex ">

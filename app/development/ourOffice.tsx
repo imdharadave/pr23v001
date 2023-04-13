@@ -30,8 +30,8 @@ const OurOffice = (props: Props) => {
                 </a>
                 <div className="mb-4">
                   822, North Plaza, 4D Rd, <br />
-                  Chandkheda, Ahmedabad,
-                  <br /> Gujrat 380005
+                  Chandkheda - 380005, Ahmedabad, 
+                  <br /> Gujrat 
                 </div>
               </address>
               <Link href="/" className="btn btn--primary">

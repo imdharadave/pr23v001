@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 type Props = {};
-const projectdata = [
+const blogdata = [
   {
     id: 1,
     img: 'https://assets.website-files.com/6315d6de235705e568f26e9b/631762feeb3d7b7d675f5c37_blog-3.jpg',
@@ -41,7 +41,7 @@ function Blogcard({}: Props) {
         </div>
       </div>
       <div className="blogcard">
-        {projectdata.map((x) => (
+        {blogdata.map((x) => (
           // eslint-disable-next-line react/jsx-key
           <div className="bg-neutral-400">
             <Link href="#">

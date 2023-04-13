@@ -34,7 +34,7 @@ const Footer = (props: Props) => {
         <div>
           <h3 className="mb-3">MANAMI</h3>
           <p>
-          1st floor, Keepsake Welding Research & Skill Development Centre, L.D. College of Engineering Campus, University Road, Ahmedabad 380015, Gujarat INDIA.
+          822, North Plaza, 4D Rd, Chandkheda - 380005, Ahmedabad, Gujrat
           </p>
           <div className="footer__links">
             {links.map((val) => (
