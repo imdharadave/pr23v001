@@ -23,7 +23,7 @@ const Page = () => {
       {/* <Crocard /> */}
       <Work />
       <Testimonial />
-      <Blogcard />
+      {/* <Blogcard /> */}
       <Footer />
     </>
   );

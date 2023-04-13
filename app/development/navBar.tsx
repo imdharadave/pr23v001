@@ -62,7 +62,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[10]"
       }
     >
-      <div className="flex justify-between items-center  h-full px-10 2xl:px-16 bg-neutral-100">
+      <div className="flex justify-between items-center  h-full px-10 2xl:px-16 bg-gradient-to-r from-neutral-400 to-[#e1e7ee] ">
       <div className="!w-36">
         <Image  src={ManamiLogo}
       alt= "manami_logo"
