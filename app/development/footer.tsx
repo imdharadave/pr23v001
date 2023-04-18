@@ -10,7 +10,7 @@ type Props = {};
 const links = [
   { page: 'Home' },
   { page: 'About' },
-  // { page: 'Project' },
+  { page: 'Project' },
   { page: 'Blog' },
   { page: 'Contact' },
 ];

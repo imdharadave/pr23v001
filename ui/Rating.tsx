@@ -10,7 +10,7 @@ const Rating = ({ rate = 0 }: Props) => {
       {[1, 2, 3, 4, 5].map((x) => (
         <div
           key={x}
-          className={clsx('mask mask--star h-5 w-5 bg-secondary1', {
+          className={clsx('mask mask--star h-5 w-5  bg-gradient-to-r from-[#9fc8f0] to-secondary3', {
             'bg-neutral-200': x > rate,
           })}
         ></div>

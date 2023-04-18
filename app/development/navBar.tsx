@@ -62,8 +62,8 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[10]"
       }
     >
-      <div className="flex justify-between items-center  h-full px-10 2xl:px-16 bg-gradient-to-r from-neutral-400 to-[#e1e7ee] ">
-      <div className="!w-36">
+      <div className="flex justify-between items-center h-full px-10 2xl:px-16 bg-gradient-to-r from-neutral-400 to-[#e1e7ee] ">
+      <div className="!w-32 md:!w-52">
         <Image  src={ManamiLogo}
       alt= "manami_logo"
       />
@@ -99,9 +99,10 @@ const Navbar = () => {
         >
           <div>
             <div className="flex  item-center pl-4 justify-between">
-              <h2 className="font-abc text-2xl">
-                Manam<span className="text-[#f6034c]">i</span>
-              </h2>
+              <div className="!w-32 pt-2"> <Image  src={ManamiLogo}
+               alt= "manami_logo"
+                 /></div>
+            
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-neutral-300 p-3 cursor-pointer"
