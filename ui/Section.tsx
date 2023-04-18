@@ -16,11 +16,11 @@ const Section = (props: Props) => {
           fill
         />
       </div>
-      <div className="workwithus__info relative">
-        <p className="pb-8 text-xl text-neutral-700">
+      <div className="workwithus__info relative font-sans">
+        <p className="!mb-0 text-xxl text-neutral-700">
         Our services include custom software development, process automation, workflow integration, and system integration. Whether you need a standalone software solution or want to integrate multiple systems, we have the expertise and experience to deliver a solution that meets your requirements.
         </p>
-        <p className="pb-8 text-xl text-neutral-700">
+        <p className=" text-xxl text-neutral-700">
         Our team of experienced developers and designers works closely with clients to understand their unique needs and create software solutions that streamline their operations and increase efficiency. From automating repetitive tasks to integrating complex workflows, our automation software is designed to help businesses save time, reduce costs, and improve accuracy
         </p>
         {/* <div className="relative">

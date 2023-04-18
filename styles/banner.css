@@ -8,7 +8,7 @@
     @apply m-0;
   }
   &__title {
-    @apply text-left md:text-center lg:text-left;
+    @apply text-left font-sans font-bold md:text-center lg:text-left;
   }
   &__content {
     @apply  md:gap-4 lg:gap-6;

@@ -8,7 +8,7 @@ export default function TestimonialCard({ data }) {
     <section className="testimonialcard ">
       <div className="testimonial__body ">
         <Rating rate={3} />
-        <p className="text-center">{data.description}</p>
+        <p className="text-center text-xl">{data.description}</p>
 
         <div className="testimonial__author">
           <div className="testimonial__image">
@@ -16,7 +16,7 @@ export default function TestimonialCard({ data }) {
           </div>
           <div className="testimonial__demo ">
             <p className='mb-0 text-xm'>{data.name}</p>
-            <span className="text-xm text-secondary1">{data.designation}</span>
+            <span className="text-xl text-secondary1">{data.designation}</span>
           </div>
         </div>
       </div>

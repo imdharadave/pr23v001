@@ -1,9 +1,9 @@
 .testimonialcard {
-  @apply p-0 opacity-60 hover:opacity-100;
+  @apply p-0 ;
 }
 
 .testimonial__body {
-  @apply flex flex-col  bg-gradient-to-r from-neutral-400 to-[#e1e7ee] items-center py-10 px-9 max-w-[460px];
+  @apply flex flex-col  bg-[#e1e7ee] items-center py-10 px-9 max-w-[490px];
   /* @apply m-2 flex max-w-[420px] flex-col  items-center justify-center bg-neutral-100  py-10 px-4  hover:bg-secondary2; */
 }
 

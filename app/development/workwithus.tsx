@@ -11,7 +11,7 @@ const WorkWithUs = (props: Props) => {
     <section className="py-16 bg-gradient-to-r from-[#e1e7ee] to-neutral-400 ">
       <Heading
         title=" Welcome to Manami Solutions, where we specialize in providing customized software solutions to help businesses of all sizes automate their processes and boost productivity."/>
-      <AboutWorkTitle />
+      {/* <AboutWorkTitle /> */}
       <Section />
     </section>
   );

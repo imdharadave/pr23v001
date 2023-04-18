@@ -6,7 +6,7 @@
   }
 
   &__title {
-    @apply text-primary;
+    @apply text-primary text-neutral-300;
   }
   &__content {
     @apply m-0;

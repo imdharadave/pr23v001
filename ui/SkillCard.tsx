@@ -12,8 +12,8 @@ const SkillCard = ({ data }) => {
           {data.svg}
         </figure>
         <div className="flex h-full flex-col  justify-between gap-2">
-          <h4 className="mb-4 mt-5 line-clamp-1">{data.title}</h4>
-          <p className="my-0 mb-7 h-16 p-0 line-clamp-2">{data.description}</p>
+          <h4 className="mb-4  line-clamp-1 text-4xl">{data.title}</h4>
+          <p className="my-0 mb-7 h-16 p-0 line-clamp-2 text-xl">{data.description}</p>
           {/* <Link href="#">Learn More</Link> */}
         </div>
       </div>

@@ -19,21 +19,17 @@ const Footer = (props: Props) => {
     <section id="footer" className="footer">
       <ThreelineSvg className="footer__svg" />
       <div className="footer__p1">
-        <Link
-          href="/"
-          className="btn btn--white px-3 py-1 rounded-md border border-secondary1"
-        >
+        <Link href="/"className="btn btn--white px-3 py-1 rounded-md border border-secondary1">
           Stay in touch
         </Link>
         <h2 className="pt-7 text-4xl md:text-7xl">Ready to talk</h2>
-        <p className="">Feel free to Contact us</p>
-       
+        <p className="text-xl">Feel free to Contact us</p>
       </div>
       <div className="footer__line"></div>
       <div className="footer__p2">
         <div>
           <h3 className="mb-3">MANAMI</h3>
-          <p>
+          <p className='text-xl'>
           822, North Plaza, 4D Rd, Chandkheda - 380005, Ahmedabad, Gujrat
           </p>
           <div className="footer__links">

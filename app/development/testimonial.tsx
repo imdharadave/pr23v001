@@ -2,10 +2,9 @@ import React from 'react';
 import '@/styles/testimonial.css';
 import clsx from 'clsx';
 import TitlePage from '@/ui/Heading';
-
+import Carousal from '@/ui/Carousal';
 import TestimonialCard from '@/ui/TestimonialCard';
-import CarousalTestimonial from '@/ui/CarousalTestimonial';
-import TestimonialBullets from '@/ui/TestimonialBullets';
+
 
 type Props = {
   id: any;
@@ -71,11 +70,11 @@ const Testimonial = ({ className, id }: Props) => {
         className=""
       />
       <div key={id} className="card-container">
-        <CarousalTestimonial>
+        <Carousal>
           {Data1.map((x) => (
             <TestimonialCard key={x.id} data={x} />
           ))}
-        </CarousalTestimonial>
+        </Carousal>
       </div>
     </section>
   );

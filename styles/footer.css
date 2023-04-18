@@ -20,7 +20,7 @@ div {
   }
 
   &__links {
-    @apply mb-6 flex flex-wrap gap-3;
+    @apply mb-6 flex flex-wrap gap-3 text-xl;
   }
 
   &__info {
@@ -32,6 +32,6 @@ div {
     @apply mb-8 flex gap-6 justify-start md:justify-end;
   }
   &__copyright {
-    @apply mb-0 text-base md:text-xxl;
+    @apply mb-0 text-base md:text-base;
   }
 }

@@ -1,7 +1,9 @@
 import React from 'react';
-
+ import Page from '../app/development/page';
 const page = () => {
-  return <div>page</div>;
+  return <div>
+    <Page />
+  </div>;
 
     
 

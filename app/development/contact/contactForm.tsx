@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-
+import '@/styles/contact.css';
 type Props = {};
 
 const FormData = [
@@ -50,19 +50,19 @@ const ContactForm = (props: Props) => {
                   id=""
                   rows={5}
                   placeholder={formData.placeholder}
-                  className="w-full  border border-secondary3 bg-neutral-400 px-4 py-2 hover:border-neutral-300 outline-neutral-300 focus:outline"
+                  className="w-full  border border-secondary3 bg-neutral-400 px-4 py-2 hover:border-neutral-[#1a67b1] outline-[#1a67b1] focus:outline"
                 ></textarea>
               ) : (
                 <input
                   type="text"
                   placeholder={formData.placeholder}
-                  className="form__input rounded-none border border-secondary3 bg-neutral-400 hover:border-neutral-300 outline-neutral-300 focus:outline"
+                  className="form__input rounded-none border border-secondary3 bg-neutral-400 hover:border-[#1a67b1] outline-[#1a67b1] focus:outline"
                 />
               )}
             </div>
           );
         })}
-        <Link href="/" className="btn btn--primary ">
+        <Link href="/" className="btn btn--primary uppercase">
           send proposal
         </Link>
       </div>

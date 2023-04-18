@@ -21,11 +21,11 @@ function Aboutmanami({}: Props) {
       </div>
       <div className="aboutmanami__content">
         <h2 className="aboutmanami__h2 text-neutral-300">About Manami</h2>
-        <p>
+        <p className='text-xl'>
           We are an award-winning branding and web agency committed to
           excellence since forever.
         </p>
-        <p>
+        <p className='text-xl'>
         At Manami Solutions, we are committed to delivering the best possible solutions and exceptional customer service. Contact us today to learn more about how our automation software can help you take your business to the next level.
         </p>
 

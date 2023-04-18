@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Newsreader&display=swap'); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +14,7 @@
   }
 
   h1 {
-    @apply mb-6 font-serif text-5xl font-semibold text-primary sm:text-7xl md:text-8xl lg:text-9xl;
+    @apply mb-6 font-sans text-5xl font-semibold text-primary sm:text-7xl md:text-8xl lg:text-9xl;
   }
 
   h2 {
@@ -36,7 +38,7 @@
   }
 
   p {
-    @apply mb-5 text-primary;
+    @apply mb-5 font-sans text-primary;
     &:last-child {
       @apply mb-0 pb-0;
     }
@@ -346,7 +348,7 @@
     &__control {
       grid-row: 1;
       place-self: center;
-      @apply z-50 mx-container w-20;
+      @apply z-50 mx-container hover:bg-neutral-200;
 
       &:first-child {
         grid-column: 1;
@@ -356,6 +358,7 @@
       }
     }
   }
+  
 
   .card {
     @apply grid overflow-hidden;

@@ -21,7 +21,7 @@ const Contact = ({ btn, description, title }: Props) => {
   return (
     <section id="contact" className="contact  bg-gradient-to-r from-[#e1e7ee] to-neutral-400">
       <div className="contact__title ">
-        <h1>{data.title}</h1>
+        <h1 className='text-neutral-300'>{data.title}</h1>
         <div>
           <p className="text-left">{data.description}</p>
           <div className="relative flex">
