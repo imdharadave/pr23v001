@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import Manami from '@/public/Images/manami.png';
-import '@/styles/projectcard.css';
+//import '@/styles/projectcard.css';
 type Props = {};
 
 const projectdata = [
