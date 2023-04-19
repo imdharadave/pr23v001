@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
-// import '@/styles/projectcard.css';
 type Props = {};
 
 const projectdata = [
@@ -38,7 +37,7 @@ function ProjectCard  ({}: Props) {
     <h2 className="text-left md:text-center pt-0 md:pt-20 lg:pt-24 text-4xl md:text-7xl text-neutral-300"> Our Project</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {projectdata.map((data) => (
-            <div className="bg-secondary2 rounded-lg">
+            <div className="bg-neutral-100 rounded-lg">
             <Link href="#">
               <div className=" relative min-h-[200px] md:aspect-video w-full rounded-lg overflow-hidden">
                 <Image src={data.img} alt=""  />
