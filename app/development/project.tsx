@@ -21,9 +21,9 @@ const Project = ({ btn, description, title }: Props) => {
         <h1 className='text-neutral-300'>{data.title}</h1>
         <div>
           <p className="text-left text-2xl">{data.description}</p>
-          <div className="relative flex">
+          {/* <div className="relative flex">
             <RoketSvg className="project__tag" />
-          </div>
+          </div> */}
         </div>
       </div>
      
