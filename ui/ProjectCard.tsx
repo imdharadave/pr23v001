@@ -8,25 +8,25 @@ type Props = {};
 const projectdata = [
     {
       id: 1,
-      img: 'https://images.pexels.com/photos/4316/technology-computer-chips-gigabyte.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      // img: 'https://images.pexels.com/photos/4316/technology-computer-chips-gigabyte.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'AutoWelder 1.0',
       button: 'Read More',
     },
     {
         id: 2,
-        img: 'https://images.pexels.com/photos/246753/pexels-photo-246753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        // img: 'https://images.pexels.com/photos/246753/pexels-photo-246753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         title: 'AutoWelder 3.0',
         button: 'Read More',
       },
       {
         id: 3,
-        img: 'https://images.pexels.com/photos/6755131/pexels-photo-6755131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        // img: 'https://images.pexels.com/photos/6755131/pexels-photo-6755131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         title: 'AutoCutter',
         button: 'Read More',
       },
       {
         id: 4,
-        img: 'https://images.pexels.com/photos/8471981/pexels-photo-8471981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        // img: 'https://images.pexels.com/photos/8471981/pexels-photo-8471981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         title: 'Data Logger/Weld Metrix',
         button: 'Read More',
       },
@@ -42,7 +42,7 @@ function ProjectCard  ({}: Props) {
             <div className="bg-secondary3 rounded-lg">
             <Link href="#">
               <div className="projectcard__image ">
-                <Image src={data.img} alt="" fill />
+                <Image src={Manami} alt="" fill />
               </div>
             </Link>
 

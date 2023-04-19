@@ -1,5 +1,5 @@
 .projectcard {
-  @apply p-0 ;
+  @apply m-0 ;
   
   &__title {
         @apply text-left md:text-center pt-0 md:pt-20 lg:pt-24 text-4xl md:text-7xl text-neutral-300;
