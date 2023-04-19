@@ -40,7 +40,7 @@ function ProjectCard  ({}: Props) {
             <div className="bg-neutral-100 rounded-lg">
             <Link href="#">
               <div className=" relative min-h-[200px] md:aspect-video w-full rounded-lg overflow-hidden">
-                <Image src={data.img} alt=""  />
+                <Image src={data.img} alt=""  fill/>
               </div>
             </Link>
 
