@@ -12,7 +12,7 @@ const Page = () => {
     <>
    <NavBar />
    <Project />
-   <ProjectCard />
+   {/* <ProjectCard /> */}
    <Scrollbutton />
    <Footer />
     </>
