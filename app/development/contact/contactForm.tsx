@@ -40,7 +40,8 @@ const FormData = [
 const ContactForm = (props: Props) => {
   return (
     <section>
-      <div className="contact__body pb-10 pt-16">
+      <h2 className='  lg:text-7xl text-center pt-10 text-neutral-300'>Contact Us</h2>
+      <div className="contact__body pb-10 ">
         {FormData.map((formData) => {
           return (
             <div key={formData.id} className="form ">
@@ -62,8 +63,8 @@ const ContactForm = (props: Props) => {
             </div>
           );
         })}
-        <Link href="/" className="btn btn--primary uppercase">
-          send proposal
+        <Link href="/" className="btn btn--primary">
+          Send Proposal
         </Link>
       </div>
     </section>

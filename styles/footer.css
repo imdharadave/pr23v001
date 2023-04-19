@@ -20,7 +20,7 @@ div {
   }
 
   &__links {
-    @apply mb-6 flex flex-wrap gap-3 text-xl;
+    @apply mb-6 flex flex-wrap gap-3 text-xl font-serif;
   }
 
   &__info {

@@ -62,7 +62,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[10]"
       }
     >
-      <div className="flex justify-between items-center h-full px-10 2xl:px-16 bg-gradient-to-r from-neutral-400 to-[#e1e7ee] ">
+      <section className="flex justify-between items-center h-full  2xl:px-16 bg-gradient-to-r from-neutral-400 to-[#ecf0f4] ">
       <div className="!w-32 md:!w-52">
         <Image  src={ManamiLogo}
       alt= "manami_logo"
@@ -84,7 +84,7 @@ const Navbar = () => {
             <AiOutlineMenu size={25} />
           </div>
         </div>
-      </div>
+      </section>
       <div
         className={
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/80" : ""

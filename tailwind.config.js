@@ -26,9 +26,9 @@ module.exports = {
       lg: '1024px',
     },
     fontFamily: {
-      sans: ['var(--font-kumbh)', ...fontFamily.sans],
-      serif: ['var(--font-newsreader)', ...fontFamily.serif],
-      cursive: ['var(--font-block)', 'cursive'],
+      sans: ['Kumbh Sans'],
+      serif: ['Newsreader'],
+      
     },
     fontSize: {
       xs: ['14px', '1.5em'],

@@ -35,8 +35,8 @@ const projectdata = [
 
 function ProjectCard  ({}: Props) {
   return (
-   <section className='projectcard pt-20 pb-16'>
-    <h1 className=' projectcard__title'>Project</h1>
+   <section className='projectcard pb-16  bg-gradient-to-r from-[#e1e7ee] to-neutral-400'>
+    <h2 className=' projectcard__title'> Our Project</h2>
     <div className='projectcard__content'>
         {projectdata.map((data) => (
             <div className="bg-secondary3 rounded-lg">
