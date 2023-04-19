@@ -1,8 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
-import Manami from '@/public/Images/manami.png';
-import '@/styles/projectcard.css';
+// import '@/styles/projectcard.css';
 type Props = {};
 
 const projectdata = [
@@ -35,19 +34,19 @@ const projectdata = [
 
 function ProjectCard  ({}: Props) {
   return (
-   <section className="projectcard pb-16  bg-gradient-to-r from-neutral-400 to-[#e1e7ee]">
-    <h2 className="projectcard__title"> Our Project</h2>
-    <div className="projectcard__content">
+   <section className=" pb-16  bg-gradient-to-r from-neutral-400 to-[#e1e7ee]">
+    <h2 className="text-left md:text-center pt-0 md:pt-20 lg:pt-24 text-4xl md:text-7xl text-neutral-300"> Our Project</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {projectdata.map((data) => (
             <div className="bg-secondary2 rounded-lg">
             <Link href="#">
-              <div className="projectcard__image ">
-                <Image src={data.img} alt="" fill />
+              <div className=" relative min-h-[200px] md:aspect-video w-full rounded-lg overflow-hidden">
+                <Image src={data.img} alt=""  />
               </div>
             </Link>
 
-            <div className="projectcard__body bg-neutral-400 ">
-              <h3 className="h3 !mb-0">{data.title}</h3>
+            <div className="grid gap-4 py-8 px-4 rounded-lg bg-neutral-400 ">
+              <h3 className="text-[28px] !mb-0">{data.title}</h3>
               <div className='min-h-[1px]'>
               <Link
           href="/"
@@ -59,8 +58,6 @@ function ProjectCard  ({}: Props) {
             </div>
           </div>
         ))}
-   
-          
           </div>
    </section>
   )
