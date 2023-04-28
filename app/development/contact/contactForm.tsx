@@ -9,11 +9,11 @@ const FormData = [
     type: 'name',
     placeholder: 'Name*',
   },
-  {
-    id: 'txtName',
-    type: 'company name',
-    placeholder: 'Company Name',
-  },
+  // {
+  //   id: 'txtName',
+  //   type: 'company name',
+  //   placeholder: 'Company Name',
+  // },
   {
     id: 'txtEmail',
     type: 'email',
@@ -25,13 +25,13 @@ const FormData = [
     type: 'tel',
     placeholder: '+91 1234 5678 90',
   },
+  // {
+  //   id: 'txtWebsite URL',
+  //   type: 'txtWebsite URL',
+  //   placeholder: 'Website URL*',
+  // },
   {
-    id: 'txtWebsite URL',
-    type: 'txtWebsite URL',
-    placeholder: 'Website URL*',
-  },
-  {
-    id: 'txtProject Details',
+    id: 'txtProduct Details',
     type: 'textarea',
     placeholder: 'Project Details*',
   },
