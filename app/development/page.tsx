@@ -16,11 +16,9 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <Banner />
-      
+      <Banner /> 
       <Scrollbutton />
       <WorkWithUs />
-      {/* <Crocard /> */}
       <Work />
       <Testimonial />
       {/* <Blogcard /> */}

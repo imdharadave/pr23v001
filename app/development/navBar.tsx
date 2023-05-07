@@ -75,7 +75,7 @@ const Navbar = () => {
           <ul className="hidden md:flex ">
           {navbardata.map((data) => (
         
-        <Link  href={data.link} target="_blank" >
+        <Link  href={data.link}>
         <li className="ml-14 pt-4 text-base uppercase  hover:border-b border-neutral-300"onClick={() => setNav(false)}>{data.title}</li>
         </Link>
     ))}
