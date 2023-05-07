@@ -10,8 +10,8 @@ type Props = {};
 const links = [
   { page: 'Home' },
   { page: 'About' },
-  { page: 'Project' },
-  { page: 'Blog' },
+  // { page: 'Project' },
+  // { page: 'Blog' },
   { page: 'Contact' },
 ];
 const Footer = (props: Props) => {
