@@ -16,16 +16,16 @@ const navbardata = [
     title: 'About',
     link: '../development/about',
   },
-  {
-    id: 3,
-    title: 'Project',
-    link: '../development/project',
-  },
-  {
-    id: 4,
-    title: 'Blog',
-    link: '../development/blog',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Project',
+  //   link: '../development/project',
+  // },
+  // {
+  //   id: 4,
+  //   title: 'Blog',
+  //   link: '../development/blog',
+  // },
   {
     id: 5,
     title: 'Contact',

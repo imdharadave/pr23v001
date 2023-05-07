@@ -47,7 +47,7 @@ const Footer = (props: Props) => {
         </div>
       </div>
       <p className="footer__copyright">
-        Copyright © MANAMI | Designed by MANAMI - Powered by MANAMI
+        Copyright © MANAMI 
       </p>
     </section>
   );

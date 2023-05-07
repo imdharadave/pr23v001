@@ -12,10 +12,11 @@ const Page = () => {
       <NavBar />
      <Blog />
      <h2 className='text-neutral-300 text-center text-4xl md:text-8xl'> Coming Soon....</h2>
-      {/* <Blogcard /> */}
+     
       <Scrollbutton />
       <Footer />
     </>
   );
 };
 export default Page;
+ {/* <Blogcard /> */}

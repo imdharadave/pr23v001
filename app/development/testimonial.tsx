@@ -19,7 +19,6 @@ const Data1 = [
     description:
       '"The public is more fam, in effect, conditioned to prefer bad design, because that is what it lives with."',
     name: 'Dhara',
-    designation: 'Developer',
     url: 'https://assets.website-files.com/6315d6de2357050021f26e96/6315d6de235705000ff26f3f_user-1.jpeg',
   },
   {
@@ -27,7 +26,6 @@ const Data1 = [
     description:
       '"The public is more fam, in effect, conditioned to prefer bad design, because that is what it lives with."',
     name: 'Nikita',
-    designation: 'Developer',
     url: 'https://assets.website-files.com/6315d6de2357050021f26e96/6315d6de235705000ff26f3f_user-1.jpeg',
   },
   {
@@ -35,7 +33,6 @@ const Data1 = [
     description:
       '"The public is more fam, in effect, conditioned to prefer bad design, because that is what it lives with."',
     name: 'Rani',
-    designation: 'Developer',
     url: 'https://assets.website-files.com/6315d6de2357050021f26e96/6315d6de235705000ff26f3f_user-1.jpeg',
   },
   {
@@ -43,7 +40,6 @@ const Data1 = [
     description:
       '"The public is more fam, in effect, conditioned to prefer bad design, because that is what it lives with."',
     name: 'Sejal',
-    designation: 'Developer',
     url: 'https://assets.website-files.com/6315d6de2357050021f26e96/6315d6de235705000ff26f3f_user-1.jpeg',
   },
   // {
