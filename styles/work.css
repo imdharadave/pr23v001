@@ -1,8 +1,8 @@
 .work {
-  @apply grid min-h-fit content-center bg-neutral-400 items-center py-16 lg:pb-32;
+  @apply grid min-h-fit content-center bg-secondary1 items-center py-16 lg:pb-32;
 
   &__title {
-    @apply mb-8 text-left md:text-center text-3xl md:text-5xl  text-neutral-300;
+    @apply mb-8 text-left md:text-center text-3xl md:text-5xl  text-neutral-100;
   }
 
   &__item {

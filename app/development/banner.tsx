@@ -10,10 +10,10 @@ const Banner = (props: Props) => {
   return (
     <section id="banner" className="banner ">
       <div className="banner__body">
-        <h1 className="banner__title text-neutral-300">
+        <h1 className="banner__title text-neutral-100">
           Applying Data Science & Techniques
           <br />
-          <span className="font-normalfont-bold text-neutral-200">
+          <span className="font-normalfont-bold text-secondary4">
            with Modern Systems
           </span>
         </h1>

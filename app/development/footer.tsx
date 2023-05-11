@@ -7,13 +7,7 @@ import ThreelineSvg from '@/public/icons/threeline.svg';
 
 type Props = {};
 
-const links = [
-  { page: 'Home' },
-  { page: 'About' },
-  // { page: 'Project' },
-  // { page: 'Blog' },
-  { page: 'Contact' },
-];
+
 const Footer = (props: Props) => {
   return (
     <section id="footer" className="footer">
@@ -32,11 +26,11 @@ const Footer = (props: Props) => {
           <p className='text-xl !font-serif'>
           822, North Plaza, 4D Rd, Chandkheda - 380005, Ahmedabad, Gujrat
           </p>
-          <div className="footer__links">
+          {/* <div className="footer__links">
             {links.map((val) => (
               <Link href={'#'}>{val.page}</Link>
             ))}
-          </div>
+          </div> */}
         </div>
         <div className="footer__info !font-serif">
           <div className="footer__socialicons">

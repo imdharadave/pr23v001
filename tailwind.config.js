@@ -9,12 +9,13 @@ module.exports = {
   theme: {
     colors: {
       transparent: 'transparent',
-      primary: '#000000',
-      secondary1: '#747474',
-      secondary2: '#E2E2E2',
-      secondary3: '#F1F1F1',
+      primary: '#00000',
+      secondary1: '#fcfcfc',
+      secondary2: '#c1b59c',
+      secondary3: '#1f716c',
+      secondary4: '#418b84',
       neutral: {
-        100: '#D3D3D3',
+        100: '#A0937D',
         200: '#8F8F8F',
         300: '#4353ff',
         400: '#fff',

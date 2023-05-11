@@ -9,7 +9,7 @@ const navbardata = [
   {
     id: 1,
     title: 'Home',
-    link: '../development',
+    link: '../',
   },
   {
     id: 2,
@@ -28,6 +28,11 @@ const navbardata = [
   // },
   {
     id: 5,
+    title: 'Services',
+    link: '../development/services'
+  },
+  {
+    id: 6,
     title: 'Contact',
     link: '../development/contact',
   },
@@ -62,7 +67,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[10]"
       }
     >
-      <section className="flex justify-between items-center h-full  2xl:px-16 bg-gradient-to-r from-neutral-400 to-[#ecf0f4] ">
+      <section className="flex justify-between items-center h-full  2xl:px-16 bg-secondary1">
       <div className="!w-32 md:!w-52">
         <Image  src={ManamiLogo}
       alt= "manami_logo"
@@ -76,7 +81,7 @@ const Navbar = () => {
           {navbardata.map((data) => (
         
         <Link  href={data.link}>
-        <li className="ml-14 pt-4 text-base uppercase  hover:border-b border-neutral-300"onClick={() => setNav(false)}>{data.title}</li>
+        <li className="ml-14 pt-4 text-base uppercase  hover:border-b border-secondary3"onClick={() => setNav(false)}>{data.title}</li>
         </Link>
     ))}
           </ul>
@@ -93,7 +98,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "md:hidden fixed left-0 top-0 w-full h-screen bg-neutral-400  ease-in duration-500"
+              ? "md:hidden fixed left-0 top-0 w-full h-screen bg-neutral-300  ease-in duration-500"
               : "fixed left-[-200vw] top-0  p-10 ease-in duration-500"
           }
         >
@@ -105,7 +110,7 @@ const Navbar = () => {
             
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-neutral-300 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-secondary2 p-3 cursor-pointer"
               >
                 <AiOutlineClose/>
               </div>

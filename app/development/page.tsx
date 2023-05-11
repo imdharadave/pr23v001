@@ -20,7 +20,7 @@ const Page = () => {
       <Scrollbutton />
       <WorkWithUs />
       <Work />
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <Blogcard /> */}
       <Footer />
     </>

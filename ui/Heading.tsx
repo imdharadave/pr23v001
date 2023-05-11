@@ -15,7 +15,7 @@ const Heading = ({ className, title, desc }: Props) => {
         [className]: !!className,
       })}
     >
-      <h2 className="text-neutral-300">{title}</h2>
+      <h2 className="text-neutral-100">{title}</h2>
       <span className="title__h4">{desc}</span>
     </div>
   );

@@ -37,7 +37,7 @@ const WhyUs = () => {
   return (
     <section className="whyus">
       <div id="whyus" >
-<h2 className=' text-start text-5xl md:text-7xl md:text-center text-neutral-300'>Why to choose us?</h2>
+<h2 className=' text-start text-5xl md:text-7xl md:text-center text-secondary2'>Why to choose us?</h2>
 <p className=' text-xl md:text-3xl'>At Manami Solutions, we are dedicated to helping businesses achieve their goals through customized software solutions that improve efficiency and productivity. </p>
       </div>
       <div className="whyus__item pt-7">

@@ -7,7 +7,7 @@
   }
 
   &__info {
-    @apply flex flex-col gap-7 font-sans justify-center md:pt-8 lg:gap-10 md:w-3/5 md:mx-auto;
+    @apply flex flex-col gap-7 font-sans justify-center md:pt-8 lg:gap-10  md:mx-auto;
   }
   /* .vidimg {
     @apply relative box-content rounded-full bg-neutral-300 p-3;

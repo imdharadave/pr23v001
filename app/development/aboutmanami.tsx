@@ -10,7 +10,7 @@ type Props = {};
 
 function Aboutmanami({}: Props) {
   return (
-    <section className="aboutmanami  bg-gradient-to-r from-[#e1e7ee] to-neutral-400">
+    <section className="aboutmanami  bg-secondary1">
       <div className="aboutmanami__image">
         {/* <ImageTransition /> */}
         <Image
@@ -20,7 +20,7 @@ function Aboutmanami({}: Props) {
         />
       </div>
       <div className="aboutmanami__content">
-        <h2 className="aboutmanami__h2 text-neutral-300">About Manami</h2>
+        <h2 className="aboutmanami__h2 text-secondary3">About Manami</h2>
         <p className='text-xl'>
           We are an award-winning branding and web agency committed to
           excellence since forever.
