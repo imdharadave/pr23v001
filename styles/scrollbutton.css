@@ -1,3 +1,0 @@
-.srcbtn {
-  @apply p-6 justify-center items-center flex h-16 w-16 rounded-full bg-neutral-500 text-neutral-200 fixed bottom-10 right-4 hover:bg-primary hover:text-neutral-400 transition-all duration-300 z-[5];
-}
