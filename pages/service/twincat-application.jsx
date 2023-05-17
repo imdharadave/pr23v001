@@ -43,14 +43,14 @@ export default function TwincatApplication() {
           <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_1.svg"
-                title="Twincat Development"
+                title="Development"
                 subtitle="We develop custom Twincat applications tailored to your specific needs. Whether you need a new application or want to enhance an existing one, we can help."/>
               <Spacing lg="30" md="30" />
             </Div>
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_2.svg"
-                title="Twincat Integration"
+                title="Integration"
                 subtitle="Our developers are skilled at integrating Twincat with other systems, such as PLCs and HMIs, to create a seamless and efficient control system."
               />
               <Spacing lg="30" md="30" />
@@ -58,7 +58,7 @@ export default function TwincatApplication() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_3.svg"
-                title="Twincat Support"
+                title="Support"
                 subtitle="We offer ongoing maintenance and support services to ensure your Twincat applications are running smoothly and efficiently."
               />
               <Spacing lg="30" md="30" />
@@ -95,16 +95,16 @@ export default function TwincatApplication() {
               <Div className="row">
                 <Spacing lg="10" md="20" />
                 <p className="cs-m0"> 
-                Our team of experienced developers is proficient in developing Twincat applications for various industries such as motion, manufacturing, energy, and IoT. We have a proven track record of delivering successful Twincat projects that have resulted in increased efficiency, reduced downtime, and improved overall performance.
+                Our team of experienced developers is proficient in developing Twincat applications for various industries such as Motion, Manufacturing, Energy, and IoT. We have a proven track record of delivering successful Twincat Projects that have resulted in increased Efficiency, Reduced Downtime, and improved overall Performance.
                 </p>
                 <Spacing lg="10" md="20" />
                 <p className="cs-m0"> 
-                Our Twincat development team is proficient in using various technologies such as .Net and other frameworks to ensure that your Twincat applications are developed to the highest standards. We use a collaborative approach with our clients to ensure that their specific requirements are met and that the final product exceeds their expectations.
+                Our Twincat Development team is Proficient in using various Technologies such as .Net and other Frameworks to ensure that your Twincat Applications are developed to the Highest Standards. We use a Collaborative Approach with our Clients to ensure that their Specific Requirements are met and that the final product exceeds their Expectations.
                 </p> 
 
                 <Spacing lg="10" md="20" />
                 <p className="cs-m0">
-                Whether you're in the motion, manufacturing, energy, or IoT segment, we can help you achieve your automation goals with our Twincat application development services. Contact us today to learn more about how we can help you.
+                Whether you're in the Motion, Manufacturing, Energy, or IoT Segment, we can help you Achieve your Automation goals with our Twincat Application Development services.
                 </p>
                 {/* <Div className="col-lg-6">
                   <Button

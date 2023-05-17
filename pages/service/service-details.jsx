@@ -42,14 +42,14 @@ export default function ServiceDetails() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_1.svg"
-                title="TwinCAT Application Development"
+                title="TwinCAT Application"
                 subtitle="We provide custom software solutions for TwinCAT application development, an industrial automation software platform developed by Beckhoff Automation. Our experienced team of developers can design, develop, and implement custom TwinCAT applications that are tailored to the client's specific needs."/>
               <Spacing lg="30" md="30" />
             </Div>
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_2.svg"
-                title="CODESYS Application Development"
+                title="CODESYS Application"
                 subtitle="We also offer custom software solutions for CODESYS application development, an automation software platform used to develop industrial control systems. Our developers have extensive experience in CODESYS and can develop custom applications that meet the client's requirements."/>
               <Spacing lg="30" md="30" />
             </Div>
@@ -82,7 +82,7 @@ export default function ServiceDetails() {
               <Spacing lg="20" md="30" />
               <Div className="row">
               <Spacing lg="20" md="20" />
-                <p className="cs-m0"> Our developers can design, develop, and implement custom control systems that are tailored to the client's specific needs.
+                <p className="cs-m0"> Our Developers can Design, Develop, and implement Custom Control Systems that are Tailored to the Client's Specific Needs.
                 </p>
                 {/* <Div className="col-lg-6">
                   <Button

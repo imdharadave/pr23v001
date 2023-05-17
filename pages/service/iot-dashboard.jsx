@@ -42,7 +42,7 @@ export default function IoTDashboard() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_1.svg"
-                title="IoT Design & Development"
+                title="Design & Development"
                 subtitle="We work closely with our clients to design and develop custom dashboards that are tailored to their specific needs. We utilize the latest platforms to ensure that our dashboards are efficient, reliable, and scalable."
               />
               <Spacing lg="30" md="30" />
@@ -50,7 +50,7 @@ export default function IoTDashboard() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_2.svg"
-                title="IoT Integration"
+                title="Integration"
                 subtitle="Our developers have extensive experience integrating IoT dashboards with other systems, such as Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) systems. We ensure that the integration is seamless, efficient, and reliable."
               />
               <Spacing lg="30" md="30" />
@@ -58,7 +58,7 @@ export default function IoTDashboard() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_3.svg"
-                title="IoT Maintenance & Support"
+                title="Maintenance"
                 subtitle="We offer ongoing maintenance and support services to ensure that our clients' IoT dashboards are always running at optimal levels. Our support team is available around the clock to provide assistance whenever needed."
               />
               <Spacing lg="30" md="30" />
@@ -71,7 +71,7 @@ export default function IoTDashboard() {
             <Div className="col-xl-5 col-lg-6">
               <Div className="cs-radius_15 cs-shine_hover_1">
                 <img
-                  src="/images/serviec_img_1.jpg"
+                  src="/images/iot_img.jpeg"
                   alt="Service"
                   className="cs-radius_15 w-100"
                 />
@@ -87,15 +87,15 @@ export default function IoTDashboard() {
 
               <Spacing lg="10" md="20" />
                 <p className="cs-m0">
-                Data gathering and analysis is the need of the hour. We specialize in providing IoT dashboard development services to help our clients visualize and analyze their IoT data. With the rise of IoT devices, it's essential to have a dashboard that provides real-time insights into the performance of your IoT devices and their impact on your business.
+                Data Gathering and Analysis is the need of the hour. We specialize in providing IoT Dashboard Development services to help our clients Visualize and Analyze their IoT data. With the rise of IoT Devices, it's essential to have a Dashboard that provides Real-time insights into the Performance of your IoT devices and their impact on your business.
                </p>
                 <Spacing lg="10" md="20" />
                 <p className="cs-m0">
-                Our experienced team of developers has worked on numerous IoT dashboard projects for clients across various industries, delivering solutions that are efficient, reliable, and scalable. Our IoT dashboard development services are tailored to meet the specific needs of each client. We take a collaborative approach to ensure that we fully understand the client's requirements and develop solutions that meet those needs.
+                Our Experienced team of Developers has worked on numerous IoT Dashboard projects for clients across Various Industries, Delivering Solutions that are Efficient, Reliable, and Scalable. Our IoT Dashboard Development services are tailored to meet the specific needs of each client. We take a collaborative approach to ensure that we fully understand the client's requirements and develop solutions that meet those needs.
                  </p> 
                  <Spacing lg="10" md="20" />
                 <p className="cs-m0">
-                Our IoT development team is proficient in using various technologies such as MQTT, Node.js, and MongoDB to ensure that our dashboards are developed to the highest standards. We work closely with our clients throughout the development process to ensure that their needs are met, and we provide ongoing support to ensure that their dashboards remain optimized for their needs.
+                Our IoT Development team is Proficient in using various Technologies such as MQTT, Node.js, and MongoDB to ensure that our Dashboards are developed to the highest standards. We work closely with our clients throughout the development process to ensure that their needs are met, and we provide ongoing support to ensure that their Dashboards remain optimized for their needs.
                 </p> 
 
 

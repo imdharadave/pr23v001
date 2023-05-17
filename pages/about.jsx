@@ -57,7 +57,7 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                We offer a range of software solutions for PLC automation including TwinCAT and CODESYS application development, custom control systems, IOT dashboards, and visual components plugins. Our software solutions for automation are designed to improve productivity, reduce costs, and increase efficiency in manufacturing and industrial processes.
+                We offer a range of Software Solutions for PLC Automation including TwinCAT and CODESYS Application Development, Custom Control Systems, IOT Dashboards, and Visual Components PlugIns. Our Software Solutions for Automation are Designed to improve Productivity, Reduce Costs, and Increase Efficiency in Manufacturing and Industrial Processes.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>

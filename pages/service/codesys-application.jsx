@@ -42,7 +42,7 @@ export default function CodesysApplication() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_1.svg"
-                title="Software Integration"
+                title="Integration"
                 subtitle="Codesys is used extensively for developing automation applications across various industries, including motion, manufacturing, energy, and IoT. It is a versatile programming software that can be used to develop applications for a range of automation systems, including Programmable Logic Controllers (PLCs), Human-Machine Interfaces (HMIs), and Industrial PCs."
               />
               <Spacing lg="30" md="30" />
@@ -50,7 +50,7 @@ export default function CodesysApplication() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_2.svg"
-                title="Software Support"
+                title="Support"
                 subtitle="Codesys allows developers to write code in a range of programming languages, including ST, FBD, LD, and SFC. This flexibility allows developers to choose the language that best suits their application's needs, ensuring that the application is optimized for performance and efficiency."
               />
               <Spacing lg="30" md="30" />
@@ -58,7 +58,7 @@ export default function CodesysApplication() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_3.svg"
-                title="Software Training"
+                title="Training"
                 subtitle="Codesys supports a range of communication protocols, including Modbus, OPC UA, and MQTT. This enables developers to integrate their applications with other systems and devices, creating a seamless automation environment."
               />
               <Spacing lg="30" md="30" />
@@ -86,11 +86,11 @@ export default function CodesysApplication() {
               <Div className="row">
               <Spacing lg="20" md="20" />
                 <p className="cs-m0">
-                Codesys is a powerful programming software that is used to develop automation applications for various industries. It is a widely used programming environment that supports a variety of programming languages, including Structured Text (ST), Function Block Diagram (FBD), Ladder Diagram (LD), and Sequential Function Chart (SFC). The software is designed to be user-friendly, efficient, and highly reliable, making it an ideal choice for developing automation applications. 
+                Codesys is a Powerful Programming Software that is used to develop Automation Applications for various Industries. It is a Widely used Programming Environment that supports a Variety of Programming Languages, including Structured Text (ST), Function Block Diagram (FBD), Ladder Diagram (LD), and Sequential Function Chart (SFC). The Software is Designed to be User-friendly, Efficient, and Highly Reliable, making it an ideal choice for developing Automation Applications. 
                  </p>
                 <Spacing lg="20" md="20" />
                 <p className="cs-m0"> 
-                There are several reasons why Codesys is a popular choice for automation application development. First, it is a versatile programming software that supports a range of programming languages, making it easy for developers to create applications that meet specific requirements. Second, it is highly reliable and efficient, ensuring that applications are optimized for performance and efficiency. Finally, Codesys is user-friendly, with a range of tools and features that make it easy for developers to create and maintain applications.
+                There are Several reasons Why Codesys is a Popular Choice for Automation Application Development. First, it is a Versatile Programming Software that supports a Range of Programming Languages, making it Easy for Developers to Create Applications that meet Specific Requirements. Second, it is Highly Reliable and Efficient, Ensuring that Applications are Optimized for Performance and Efficiency. Finally, Codesys is user-friendly, with a range of tools and features that make it easy for developers to create and maintain applications.
                  </p> 
                  
 

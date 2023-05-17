@@ -42,7 +42,7 @@ export default function VisualComponent() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_1.svg"
-                title="Plug-in Integration"
+                title="Integration"
                 subtitle="Our developers have extensive experience integrating Visual Components plug-ins with other systems, such as Programmable Logic Controllers (PLCs), Human-Machine Interfaces (HMIs), and Manufacturing Execution Systems (MES). We ensure that the integration is seamless, efficient, and reliable"
               />
               <Spacing lg="30" md="30" />
@@ -50,7 +50,7 @@ export default function VisualComponent() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_2.svg"
-                title="Plug-in Design"
+                title="Design"
                 subtitle="We work closely with our clients to design and develop custom plug-ins that are tailored to their specific needs. We utilize the latest Visual Components technologies to ensure that our plug-ins are efficient, reliable, and scalable."
               />
               <Spacing lg="30" md="30" />
@@ -58,7 +58,7 @@ export default function VisualComponent() {
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_3.svg"
-                title="Plug-in Development"
+                title="Development"
                 subtitle="Our Visual Components plug-in development services are tailored to meet the specific needs of each client. We take a collaborative approach to ensure that we fully understand the client's requirements and develop solutions that meet those needs."/>
               <Spacing lg="30" md="30" />
             </Div>
@@ -84,10 +84,10 @@ export default function VisualComponent() {
               <Spacing lg="20" md="30" />
               <Div className="row">
               <Spacing lg="20" md="20" />
-                <p className="cs-m0"> Visual Components is a powerful 3D simulation software that is widely used in the manufacturing industry to design and simulate production lines, cells, and machines.
+                <p className="cs-m0"> Visual Components is a Powerful 3D Simulation Software that is Widely used in the Manufacturing industry to Design and Simulate Production Lines, Cells, and Machines.
                 </p>
                 <Spacing lg="20" md="20" />
-                <p className="cs-m0">Our experienced team of developers has worked on numerous Visual Components projects for clients across various industries, delivering solutions that are efficient, reliable, and scalable.
+                <p className="cs-m0">Our Experienced team of developers has worked on numerous Visual Components Projects for clients across various Industries, Delivering solutions that are Efficient, Reliable, and Scalable.
                 </p>
                 {/* <Div className="col-lg-6">
                   <Button
