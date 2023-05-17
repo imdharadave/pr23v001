@@ -5,7 +5,8 @@ import Link from 'next/link';
 export default function ContactInfoWidget({withIcon, title}) {
   return (
     <>
-      {title && <h2 className="cs-widget_title">{title}</h2>}
+    <Link href="/contact">{title && <h2 className="cs-widget_title">{title}</h2>}</Link>
+      
       <ul className="cs-menu_widget cs-style1 cs-mp0">
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>:''}

@@ -9,8 +9,8 @@ export default function TeamSlider() {
   const teamData = [
     {
       memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberName: 'Manan Bateriwala',
+      memberDesignation: '',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -20,8 +20,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
-      memberDesignation: 'Product Designer',
+      memberName: 'Ami Bateriwala',
+      memberDesignation: '',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -31,8 +31,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
+      memberName: 'Navil Shah',
+      memberDesignation: '',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -42,8 +42,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_4.jpeg',
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
+      memberName: 'Shreya Patel',
+      memberDesignation: '',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -53,8 +53,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberName: 'Sejal',
+      memberDesignation: '',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -62,6 +62,62 @@ export default function TeamSlider() {
         // facebook: '/',
       },
     },
+    {
+      memberImage: '/images/member_1.jpeg',
+      memberName: 'Nikita',
+      memberDesignation: '',
+      memberSocial: {
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
+      },
+    },
+    {
+      memberImage: '/images/member_1.jpeg',
+      memberName: 'Rani',
+      memberDesignation: '',
+      memberSocial: {
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
+      },
+    },
+    {
+      memberImage: '/images/member_1.jpeg',
+      memberName: 'Lakshya Upadhyay',
+      memberDesignation: '',
+      memberSocial: {
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
+      },
+    },
+    {
+      memberImage: '/images/member_1.jpeg',
+      memberName: 'Dhara Dave',
+      memberDesignation: '',
+      memberSocial: {
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
+      },
+    },
+    {
+      memberImage: '/images/member_1.jpeg',
+      memberName: 'Jigar Makvana',
+      memberDesignation: '',
+      memberSocial: {
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
+      },
+    },
+    
   ];
   /** Slider Settings **/
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (

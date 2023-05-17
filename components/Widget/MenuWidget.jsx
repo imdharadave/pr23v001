@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function MenuWidget({ menuItems, menuHeading, variant }) {
   return (
     <>
-      {menuHeading && <h2 className="cs-widget_title">{menuHeading}</h2>}
+    <Link href="/service">{menuHeading && <h2 className="cs-widget_title">{menuHeading}</h2>}</Link>
       <ul
         className={`${
           variant ? `cs-menu_widget ${variant}` : 'cs-menu_widget cs-style1'

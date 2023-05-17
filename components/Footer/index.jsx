@@ -5,6 +5,8 @@ import MenuWidget from '../Widget/MenuWidget';
 import Newsletter from '../Widget/Newsletter';
 import SocialWidget from '../Widget/SocialWidget';
 import TextWidget from '../Widget/TextWidget';
+import Link from 'next/link';
+
 
 export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
   const copyrightLinks = [
@@ -58,7 +60,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
+               <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
