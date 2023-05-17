@@ -42,17 +42,6 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_4.jpeg',
-      memberName: 'Shreya Patel',
-      memberDesignation: '',
-      memberSocial: {
-        // linkedin: '/',
-        // twitter: '/',
-        // youtube: '/',
-        // facebook: '/',
-      },
-    },
-    {
-      memberImage: '/images/member_1.jpeg',
       memberName: 'Sejal',
       memberDesignation: '',
       memberSocial: {
