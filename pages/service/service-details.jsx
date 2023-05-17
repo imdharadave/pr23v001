@@ -33,7 +33,7 @@ export default function ServiceDetails() {
         <Spacing lg="95" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Our Automation software development services"
+            title="What We Offer."
             subtitle="Automation Software Development"
             variant="cs-style1 text-center font-47px"
           />

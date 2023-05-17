@@ -33,7 +33,7 @@ export default function VisualComponent() {
         <Spacing lg="85" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Our Visual component development services"
+            title="What We Offer."
             subtitle="Visual Component Plug In"
             variant="cs-style1 text-center"
           />

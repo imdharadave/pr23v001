@@ -33,7 +33,7 @@ export default function IoTDashboard() {
         <Spacing lg="85" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Our IoT dashboard application services"
+            title="What We Offer."
             subtitle="IoT Dashboard Development"
             variant="cs-style1 text-center"
           />

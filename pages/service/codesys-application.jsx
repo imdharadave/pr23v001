@@ -33,7 +33,7 @@ export default function CodesysApplication() {
         <Spacing lg="85" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Our Codesys application development services"
+            title="What We Offer."
             subtitle="Codesys Applcation Development"
             variant="cs-style1 text-center"
           />
