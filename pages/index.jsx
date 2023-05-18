@@ -133,7 +133,7 @@ export default function Home() {
                     <Card
                       title="IoT Dashboard Development"
                       link="/service/iot-dashboard"
-                      src="/images/service_4.jpeg"
+                      src="/images/Iot.png"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
