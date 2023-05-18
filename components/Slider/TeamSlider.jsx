@@ -64,7 +64,7 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/Rani_img.jpeg',
-      memberName: 'Rani',
+      memberName: 'Rani Sharma',
       memberDesignation: 'Jr. Software Developer',
       memberSocial: {
         // linkedin: '/',
