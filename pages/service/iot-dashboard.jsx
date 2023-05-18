@@ -71,7 +71,7 @@ export default function IoTDashboard() {
             <Div className="col-xl-5 col-lg-6">
               <Div className="cs-radius_15 cs-shine_hover_1">
                 <img
-                  src="/images/Iot_img.jpg"
+                  src="/images/Codesys_img.jpg"
                   alt="Service"
                   className="cs-radius_15 w-100"
                 />
