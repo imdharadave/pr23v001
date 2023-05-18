@@ -8,9 +8,9 @@ export default function TeamSlider() {
   /** Team Member Data **/
   const teamData = [
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: '/images/Manan_img.jpg',
       memberName: 'Manan Bateriwala',
-      memberDesignation: '',
+      memberDesignation: 'Founder & Partner',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -19,9 +19,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_2.jpeg',
+      memberImage: '/images/Ami_img.jpg',
       memberName: 'Ami Bateriwala',
-      memberDesignation: '',
+      memberDesignation: 'Finance Executive & Partner',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -30,9 +30,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_3.jpeg',
+      memberImage: '/images/Navil_img.jpg',
       memberName: 'Navil Shah',
-      memberDesignation: '',
+      memberDesignation: 'Technical Solution Architect',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -41,9 +41,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_4.jpeg',
-      memberName: 'Sejal',
-      memberDesignation: '',
+      memberImage: '/images/Sejal_img.jpeg',
+      memberName: 'Sejal Rai',
+      memberDesignation: 'Jr. Software Developer',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -52,9 +52,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Nikita',
-      memberDesignation: '',
+      memberImage: '/images/Nikita_img.jpeg',
+      memberName: 'Nikita Shrotriya',
+      memberDesignation: 'Jr. Software Developer',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -63,9 +63,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: '/images/Rani_img.jpeg',
       memberName: 'Rani',
-      memberDesignation: '',
+      memberDesignation: 'Jr. Software Developer',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -74,9 +74,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: '/images/Lakshya_img.jpeg',
       memberName: 'Lakshya Upadhyay',
-      memberDesignation: '',
+      memberDesignation: 'Jr. Software Developer',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -85,9 +85,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: '/images/Dhara_img.jpeg',
       memberName: 'Dhara Dave',
-      memberDesignation: '',
+      memberDesignation: 'Jr. Software Developer',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',
@@ -96,9 +96,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: '/images/Jigar_img.jpeg',
       memberName: 'Jigar Makvana',
-      memberDesignation: '',
+      memberDesignation: 'Jr. Software Developer',
       memberSocial: {
         // linkedin: '/',
         // twitter: '/',

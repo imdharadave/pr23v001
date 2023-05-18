@@ -14,13 +14,13 @@ export default function Team({
         <img src={memberImage} alt={memberName} />
         <Div className="cs-member_overlay" />
       </Div>
-      <Div className="cs-member_info">
+      <Div className="cs-member_info bg-#241d1da3">
         <h2 className="cs-member_name">
-          <Link href="/team/team-details">{memberName}</Link>
+          <Link href="">{memberName}</Link>
         </h2>
-        <Div className="cs-member_designation">{memberDesignation}</Div>
+        <Div className="cs-member_designation font-bold">{memberDesignation}</Div>
       </Div>
-      <Div className="cs-member_social cs-primary_color">
+      {/* <Div className="cs-member_social cs-primary_color">
         {memberSocial.linkedin && (
           <Link href={memberSocial.linkedin}>
             <Icon icon="fa6-brands:linkedin-in" />
@@ -41,7 +41,7 @@ export default function Team({
             <Icon icon="fa-brands:facebook-f" />
           </Link>
         )}
-      </Div>
+      </Div> */}
     </Div>
   );
 }

@@ -11,36 +11,36 @@ import Team from '../../components/Team';
 export default function TeamPage() {
   const teamData = [
     {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
+      memberImage: '/images/Manan_img.jpg',
+      memberName: 'Manan Bateriwala',
       memberDesignation: 'Product Designer',
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
       },
     },
     {
       memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
+      memberName: 'Ami Bateriwala',
       memberDesignation: 'Product Designer',
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
       },
     },
     {
       memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
+      memberName: 'Navil Shah',
       memberDesignation: 'React Developer',
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
       },
     },
     {
@@ -48,10 +48,10 @@ export default function TeamPage() {
       memberName: 'Melina Opole',
       memberDesignation: 'WP Developer',
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        // linkedin: '/',
+        // twitter: '/',
+        // youtube: '/',
+        // facebook: '/',
       },
     },
     {

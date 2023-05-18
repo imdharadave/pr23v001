@@ -31,15 +31,16 @@
   }
   .cs-member_name {
     font-size: 22px;
-    margin-bottom: 6px;
+    margin-bottom: 1px;
   }
   .cs-member_info {
+    background: #241d1da3;
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     z-index: 3;
-    padding: 30px 25px;
+    padding: 10px 25px;
   }
   .cs-member_social {
     position: absolute;
