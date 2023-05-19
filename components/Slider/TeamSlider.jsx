@@ -42,7 +42,7 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/Sejal_img.jpeg',
-      memberName: 'Sejal Rai',
+      memberName: 'Sayjal Rai',
       memberDesignation: 'Jr. Software Developer',
       memberSocial: {
         // linkedin: '/',
