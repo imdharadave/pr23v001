@@ -28,12 +28,12 @@ export default function IoTDashboard() {
         <PageHeading
           title="IoT Dashboard Development"
           bgSrc="/images/service_hero_bg.jpeg"
-          pageLinkText={serviceId}
+          pageLinkText="iot dashboard development"
         />
         <Spacing lg="85" md="80" />
         <Div className="container">
           <SectionHeading
-            title="What We Offer."
+            title="What We Offer"
             subtitle="IoT Dashboard Development"
             variant="cs-style1 text-center"
           />

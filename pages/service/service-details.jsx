@@ -27,12 +27,12 @@ export default function ServiceDetails() {
         <PageHeading
           title="Automation Software Development"
           bgSrc="/images/service_hero_bg.jpeg"
-          pageLinkText={serviceId}
+          pageLinkText="automation software development"
         />
         <Spacing lg="95" md="80" />
         <Div className="container">
           <SectionHeading
-            title="What We Offer."
+            title="What We Offer"
             subtitle="Automation Software Development"
             variant="cs-style1 text-center font-47px"
           />

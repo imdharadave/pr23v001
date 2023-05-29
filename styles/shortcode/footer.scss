@@ -4,6 +4,7 @@
 
 .cs-footer_item {
   margin-bottom: 40px;
+  max-width: 90%;
   .cs-newsletter.cs-style1 {
     margin-top: 6px;
   }
@@ -162,6 +163,7 @@
   }
   .cs-text_widget img + p {
     margin-top: 20px;
+    max-width: 75%;
   }
   .cs-menu_widget.cs-style1 li:not(:last-child) {
     margin-bottom: 10px;

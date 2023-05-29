@@ -28,12 +28,12 @@ export default function TwincatApplication() {
         <PageHeading
           title="Twincat Application Development"
           bgSrc="/images/service_hero_bg.jpeg"
-          pageLinkText={serviceId}
+          pageLinkText="twincat applicatin development"
         />
         <Spacing lg="85" md="80" />
         <Div className="container">
           <SectionHeading
-            title="What We Offer."
+            title="What We Offer"
             subtitle="Twincat application development"
             variant="cs-style1 text-center"
             link="/service/twincat-application"

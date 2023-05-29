@@ -367,7 +367,7 @@ export default function Header({ variant }) {
             />
           </Div>
           <Div className="cs-side_header_box">
-            <SocialWidget />
+            {/* <SocialWidget /> */}
           </Div>
         </Div>
       </Div>

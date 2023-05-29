@@ -28,12 +28,12 @@ export default function VisualComponent() {
         <PageHeading
           title="Visual Component Plug In"
           bgSrc="/images/service_hero_bg.jpeg"
-          pageLinkText={serviceId}
+          pageLinkText="Visual Component Plug In"
         />
         <Spacing lg="85" md="80" />
         <Div className="container">
           <SectionHeading
-            title="What We Offer."
+            title="What We Offer"
             subtitle="Visual Component Plug In"
             variant="cs-style1 text-center"
           />

@@ -28,12 +28,12 @@ export default function CodesysApplication() {
         <PageHeading
           title="Codesys Application"
           bgSrc="/images/service_hero_bg.jpeg"
-          pageLinkText={serviceId}
+          pageLinkText="codesys application development"
         />
         <Spacing lg="85" md="80" />
         <Div className="container">
           <SectionHeading
-            title="What We Offer."
+            title="What We Offer"
             subtitle="Codesys Applcation Development"
             variant="cs-style1 text-center"
           />

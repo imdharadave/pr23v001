@@ -55,7 +55,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                   logoAlt="Logo"
                   text=""
                 />
-                <SocialWidget />
+                {/* <SocialWidget /> */}
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
@@ -83,7 +83,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       <Div className="container">
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
-            <Div className="cs-copyright">Copyright © 2023 Manami.</Div>
+            <Div className="cs-copyright">Copyright © 2023 Manami Solutions LLP</Div>
           </Div>
           {/* <Div className="cs-bottom_footer_right">
             <MenuWidget menuItems={copyrightLinks} variant=" cs-style2" />
