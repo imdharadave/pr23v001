@@ -11,7 +11,6 @@ import PageHeading from '../../components/PageHeading';
 import SectionHeading from '../../components/SectionHeading';
 import TestimonialSlider from '../../components/Slider/TestimonialSlider';
 import Spacing from '../../components/Spacing';
-
 export default function ServiceDetails() {
   const router = useRouter();
   const serviceId = router.query.serviceId;
@@ -43,20 +42,25 @@ export default function ServiceDetails() {
               <IconBox
                 icon="/images/icons/service_icon_1.svg"
                 title="TwinCAT Application"
+                href="/service/twincat-application"
                 subtitle="We provide custom software solutions for TwinCAT application development, an industrial automation software platform developed by Beckhoff Automation. Our experienced team of developers can design, develop, and implement custom TwinCAT applications that are tailored to the client's specific needs."/>
               <Spacing lg="30" md="30" />
             </Div>
             <Div className="col-lg-4">
+               
               <IconBox
                 icon="/images/icons/service_icon_2.svg"
                 title="CODESYS Application"
+                href="/service/codesys-application"
                 subtitle="We also offer custom software solutions for CODESYS application development, an automation software platform used to develop industrial control systems. Our developers have extensive experience in CODESYS and can develop custom applications that meet the client's requirements."/>
               <Spacing lg="30" md="30" />
+              
             </Div>
             <Div className="col-lg-4">
               <IconBox
                 icon="/images/icons/service_icon_3.svg"
                 title="IOT Dashboards"
+                href="/service/iot-dashboard"
                 subtitle="We also provide custom software solutions for IoT dashboards, enabling clients to visualize and analyze their IoT data in real-time."/>
               <Spacing lg="30" md="30" />
             </Div>
